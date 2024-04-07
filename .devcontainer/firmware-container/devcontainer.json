@@ -1,0 +1,20 @@
+{
+	"name": "firmware",
+	"dockerComposeFile": ["../../docker-compose.yml"],
+	"service": "firmware",
+	"shutdownAction": "none",
+	"workspaceFolder": "/workspace/firmware",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools-extension-pack",
+				"platformio.platformio-ide",
+				"ms-python.python",
+				"ms-python.debugpy"
+			]
+		}
+	},
+	"mounts": [
+		"source=/dev/,target=/dev/,type=bind,consistency=consistent"
+	]
+}
