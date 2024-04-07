@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Hardware lock file
+/hardware/~*.dip~
+/hardware/~*.dch~
+/hardware/~*.lib~
+/hardware/~*.eli~
